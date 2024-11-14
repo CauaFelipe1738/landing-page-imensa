@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nova+Mono&family=Nova+Slim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary: #303031;
+    --secondary: #71A894;
+    --primary-light: #66645E;
+    --light-gold: #F9F9F9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nova slim';
+    color: #303031;
+    background-color: var(--light-gold);
+}
+
+.title{
+    font-family: 'Abril Fatface';
+    font-size: 48px;
+}
+
+.button{
+   color: white;
+   background-color: var(--secondary);
+   padding: 20px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.tiny-button{
+    color: white;
+    background-color: var(--secondary);
+    padding: 1.5%;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+p{font-size: 18px;}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px 10rem 30px;
+}
+
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.items, .highlight-item{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.highlight-item{color: var(--secondary);}
+
+.intro{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.intro-text{margin-left: 10rem;}
+
+.intro .title{font-size: 64px;}
+
+.intro .subtitle{
+    color: var(--primary-light);
+    font-size: 24px;
+    margin-bottom: 5rem;
+}
+
+/*****************************************************************/
+.hero{margin-top: 5rem;}
+
+.hero .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10%;
+    margin-bottom: 2.5%;
+}
+
+.hero .title{margin-bottom: 2%;}
+
+.grid{
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 7rem;
+}
+
+.card{
+    padding: 3rem 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 18px;
+}
+
+.card .icon{margin-bottom: 10%;}
+
+.card h2{margin-bottom: 5%;}
+
+.card h2, .card p{background-color: white;}
+
+.card .icon{border-radius: 45%;}
+
+/************************************************************************************************/
+
+.cards{
+    display: flex;
+    margin: 0 15% 5% 15%;
+}
+
+.cards .info-card{
+    margin: 0 5%;
+}
+
+.cards .container .title{margin-bottom: 2rem;}
+
+/*****************************************************************************/
+
+.hero2 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10%;
+    margin-bottom: 2.5%;
+}
+
+.hero .title{margin-bottom: 2%;}
+
+.hero2 .grid{
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 7rem;
+}
+
+.hero2 .card1{
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 18px;
+}
+
+.card1 h3, .card1 p, .container p{background-color: white;}
+
+.card1 p{margin-bottom: 1rem;}
+
+.card1 .container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-more{
+    color: white;
+    background-color: var(--primary);
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button-flex{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
