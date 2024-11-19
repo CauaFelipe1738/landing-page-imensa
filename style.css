@@ -41,6 +41,12 @@
 
 p{font-size: 18px;}
 
+.divider{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -123,7 +129,7 @@ header nav ul li{
 
 .card h2, .card p{background-color: white;}
 
-.card .icon{border-radius: 45%;}
+.card .icon{border-radius: 50%;}
 
 /************************************************************************************************/
 
@@ -191,4 +197,46 @@ header nav ul li{
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+}
+
+/********************************************************************/
+
+.outro{
+    display: flex;
+    margin: 0 50px 60px 50px;
+}
+
+.outro .container .title{
+    margin-bottom: 24px;
+    margin-top: 60px;
+}
+
+.outro .container p{
+    margin-bottom: 60px;
+}
+
+.outro .container .button{
+    margin-top: 60rem;
+    margin-bottom: 60px;
+}
+
+.outro .outro-image{margin-left: 10rem;}
+
+/************************************************/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    padding: 20px 0;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li{
+    list-style: none;
+    margin: 0 20px;
 }
